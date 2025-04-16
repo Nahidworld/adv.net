@@ -11,11 +11,62 @@
     <h5>@Model.Gender</h5>
 }
 
+@{ 
+    bool CheckGender(string gn) {
+        if(Model.Gender != null && Model.Gender.Equals(gn)) {
+            return true;
+        }
+        return false;
+    }
+
+    //profession check
+    bool CheckProfession(string prf)
+    {
+        if(Model.Profession != null && Model.Profession.Equals(prf))
+        {
+            return true;
+        }
+        return false;
+    }
+    //check hobbies
+    bool CheckHobbies(string hobby)
+    {
+        if (Model.Hobbies != null)
+        {
+            foreach(var h in Model.Hobbies)
+            {
+                if(h.Equals(hobby))
+                {
+                    return true;
+                }
+
+            }
+        }
+        return false;
+    }
+}
+
 <h2>Index</h2>
 <form method="post">
 
     <input type="text" class="form-control" value="@Model.Id" name="Id" placeholder="Id" />
     <input type="text" class="form-control" value="@Model.Name" name="Name" placeholder="Name" />
     <input type="text" class="form-control" value="@Model.Email" name="Email" placeholder="Email" />
+    Gender:
+    <input type="radio" name="Gender" checked="@CheckGender("Male")" value="Male" />
+    <input type="radio" name="Gender" checked="@CheckGender("Female")" value="Female" />
+    <select name="Profession" class="form-control">
+        <option selected disabled>Select Option</option>
+        <option selected="@CheckProfession("Business")">Business</option>
+        <option selected="@CheckProfession("Student")">Student</option>
+        <option selected="@CheckProfession("Job")">Job</option>
+    </select>
+
+    Hobbies:
+    <input type="checkbox" checked="@CheckHobbies("Travelling")" name="Hobbies[]" value="Travelling" />Travelling
+    <input type="checkbox" checked="@CheckHobbies("Music")" name="Hobbies[]" value="Music" />Music
+    <input type="checkbox" checked="@CheckHobbies("Sports")" name="Hobbies[]" value="Sports" /> Sports
+    <input type="checkbox" checked="@CheckHobbies("Games")" name="Hobbies[]" value="Games" /> Games
+
     <input type="submit" class="btn btn-success" value="Add" />
 </form>

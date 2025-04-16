@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\adv.net\\FormSubmission\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|c:\\adv.net\\formsubmission\\formsubmission\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|solutionrelative:formsubmission\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|C:\\adv.net\\FormSubmission\\formsubmission\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|solutionrelative:formsubmission\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|c:\\adv.net\\formsubmission\\formsubmission\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|C:\\adv.net\\FormSubmission\\formsubmission\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|solutionrelative:formsubmission\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|c:\\adv.net\\formsubmission\\formsubmission\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|solutionrelative:formsubmission\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|c:\\adv.net\\formsubmission\\formsubmission\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EAA799D-7337-49FE-8652-C9BC0A6547FA}|FormSubmission\\FormSubmission.csproj|solutionrelative:formsubmission\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\adv.net\\FormSubmission\\FormSubmission\\Models\\Student.cs",
               "RelativeDocumentMoniker": "FormSubmission\\Models\\Student.cs",
               "ToolTip": "C:\\adv.net\\FormSubmission\\FormSubmission\\Models\\Student.cs",
               "RelativeToolTip": "FormSubmission\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T19:17:29.773Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "FormSubmission\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\adv.net\\FormSubmission\\FormSubmission\\Controllers\\StudentController.cs",
               "RelativeToolTip": "FormSubmission\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T19:15:32.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\adv.net\\FormSubmission\\FormSubmission\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "FormSubmission\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\adv.net\\FormSubmission\\FormSubmission\\Views\\Student\\Index.cshtml*",
-              "RelativeToolTip": "FormSubmission\\Views\\Student\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "ToolTip": "C:\\adv.net\\FormSubmission\\FormSubmission\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "FormSubmission\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAawB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-15T19:21:56.465Z",
               "EditorCaption": ""
